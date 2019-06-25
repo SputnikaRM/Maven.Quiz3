@@ -14,7 +14,7 @@ public class ArrayUtility<SomeType> {
 
     public SomeType findOddOccurringValue() {
         for(int x=0;x<array.length;x++){
-       
+
         }
         return null;
     }
