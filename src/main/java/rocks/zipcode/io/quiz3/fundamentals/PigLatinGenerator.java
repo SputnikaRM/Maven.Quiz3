@@ -10,10 +10,14 @@ public class PigLatinGenerator {
             str = str + "way";
             return str;
 
-        } else {
+        }
+        else {
            x= VowelUtils.getIndexOfFirstVowel(str);
             str=str.substring(x,str.length())+str.substring(0,x)+"ay";
                 return str;}
-    
- }
+
+
+
+
+    }
 }
