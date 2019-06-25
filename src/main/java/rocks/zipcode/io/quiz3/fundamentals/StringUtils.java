@@ -8,6 +8,7 @@ import java.util.List;
  */
 public class StringUtils {
     public static String capitalizeNthCharacter(String str, Integer indexToCapitalize) {
+
         return null;
     }
 

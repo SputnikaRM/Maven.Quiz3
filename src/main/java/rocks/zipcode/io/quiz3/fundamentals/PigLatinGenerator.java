@@ -5,6 +5,15 @@ package rocks.zipcode.io.quiz3.fundamentals;
  */
 public class PigLatinGenerator {
     public String translate(String str) {
-        return null;
-    }
+        int x = 0;
+        if (VowelUtils.isVowel(str.charAt(0))){
+            str = str + "way";
+            return str;
+
+        } else {
+           x= VowelUtils.getIndexOfFirstVowel(str);
+            str=str.substring(x,str.length())+str.substring(0,x)+"ay";
+                return str;}
+    
+ }
 }
